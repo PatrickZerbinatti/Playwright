@@ -5,5 +5,5 @@ app = FastAPI()
 
 @app.get("/")
 async def get_all_laptop_info():
-    teste = await all_laptops_info()
+    teste = all_laptops_info()
     return teste
